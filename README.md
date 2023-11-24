@@ -1,8 +1,7 @@
-# delegation-registry
+# Delegation Registry
+delegate.xyz is the best solution to secure valuable onchain assets while still participating in NFT airdrop claims, ERC20 token governance, and more. Users link cold wallets with hot wallets, and then the hot wallet can act on behalf of the cold wallet, like crypto power-of-attorney.
 
-<img src="vault.png" width="300" />
 
-## Finalized Deployment
 
 |Mainnet Chain|Address|
 |---|---|
@@ -17,9 +16,14 @@
 |Arbitrum|[0x00000000000000447e69651d841bd8d104bed493](https://arbiscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
 |Arbitrum (Nova)|[0x00000000000000447e69651d841bd8d104bed493](https://nova.arbiscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
 
+
+
 |Testnet Chain|Address|
 |---|---|
 |Ethereum (Goerli)|[0x00000000000000447e69651d841bd8d104bed493](https://goerli.etherscan.io/address/0x00000000000000447e69651d841bd8d104bed493)|
+|Engram (Tokio)|[0x0000000000FFe8B47B3e2130213B802212439497](https://tokioscan-v2.engram.tech/address/0x0000000000FFe8B47B3e2130213B802212439497)|
+
+
 
 
 If you'd like to get the DelegateRegistry on another EVM chain, anyone in the community can deploy to the same address! Simply run the script in [Deploy.s.sol](script/Deploy.s.sol) with the specified salt. The CREATE2 factory must be deployed at `0x0000000000FFe8B47B3e2130213B802212439497`, but this factory exists on 19 separate chains so shouldn't be an issue. If you've run a community deployment, open a PR adding the link to the above table.
